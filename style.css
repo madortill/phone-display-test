@@ -1,0 +1,23 @@
+div {
+    width: 50vw;
+}
+
+html, body {
+    height: 90vh;
+  }
+
+.vh {
+    background-color: rgba(8, 0, 255, 0.421);
+    height: 100vh;
+}
+
+.js-changed-vh {
+    background-color: rgba(255, 1, 1, 0.421);
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+}
+
+.percent-to-body {
+    background-color: rgba(255, 242, 0, 0.421);
+    height: 100%;
+}
