@@ -7,7 +7,7 @@ const resizeOps = () => {
 
   window.addEventListener("load", () => {
     document.querySelector(".data").innerHTML = `Heights: \n 
-    vh (blue): ${document.querySelector(".vh").clientHeight}px,
-    js-changed-vh (red): ${document.querySelector(".js-changed-vh").clientHeight}px,
+    vh (blue): ${document.querySelector(".vh").clientHeight}px, \n
+    js-changed-vh (red): ${document.querySelector(".js-changed-vh").clientHeight}px,\n
     percent-to-body (yellow0): ${document.querySelector(".percent-to-body").clientHeight}px`;
   })
